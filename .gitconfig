@@ -9,3 +9,5 @@
 	excludesFile = ~/.gitignore_global
 [commit]
 	gpgsign = true
+[include]
+	path = ~/.work.gitconfig

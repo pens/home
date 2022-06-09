@@ -1,0 +1,8 @@
+exiftool
+fzf
+imagemagick
+neovim
+ripgrep
+tmux
+zip
+zsh
