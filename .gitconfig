@@ -3,6 +3,7 @@
 [core]
 	editor = vi
 	excludesFile = ~/.gitignore_global
+    pager = less -x4
 [init]
 	defaultBranch = main
 [pull]
