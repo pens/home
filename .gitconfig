@@ -12,6 +12,5 @@
     name = Seth Pendergrass
     email = 8273706+pens@users.noreply.github.com
     signingkey = BF1CFE3682B85EE4
-
 [include]
     path = ~/.work.gitconfig
