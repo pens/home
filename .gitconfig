@@ -1,17 +1,17 @@
 [commit]
-	gpgsign = true
+    gpgsign = true
 [core]
-	editor = vi
-	excludesFile = ~/.gitignore_global
+    editor = vi
+    excludesFile = ~/.gitignore_global
     pager = less -x4
 [init]
-	defaultBranch = main
+    defaultBranch = main
 [pull]
-	rebase = true
+    rebase = true
 [user]
-	name = Seth Pendergrass
-	email = 8273706+pens@users.noreply.github.com
-	signingkey = BF1CFE3682B85EE4
+    name = Seth Pendergrass
+    email = 8273706+pens@users.noreply.github.com
+    signingkey = BF1CFE3682B85EE4
 
 [include]
-	path = ~/.work.gitconfig
+    path = ~/.work.gitconfig
