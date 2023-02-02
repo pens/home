@@ -1,6 +1,7 @@
 exiftool
 fzf
 imagemagick
+gnome-tweaks
 neovim
 ripgrep
 tmux

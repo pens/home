@@ -1,0 +1,15 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/nvme0n1p2 during installation
+UUID=a3573596-3ddc-48cc-b7d5-dc186e920d98	/               ext4    errors=remount-ro	0       1
+# /boot/efi was on /dev/nvme0n1p1 during installation
+UUID=7160-0C44  				/boot/efi       vfat    umask=0077      	0       1
+#/swapfile					none            swap    sw			0       0
+# nfsvers=4.0: QNAP Hack
+192.168.1.2:/homes/seth				/mnt/nas	nfs	defaults,nfsvers=4.0	0	0
+UUID=e7c02a8a-ee1e-46e3-b657-32d8bc584b42	/mnt/data	ext4	defaults		0	2
