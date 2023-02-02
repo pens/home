@@ -1,0 +1,34 @@
+{
+    // VSCode
+    "workbench.colorTheme": "Default High Contrast Light",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+
+    // C++
+    "[cpp]": {
+        "editor.tabSize": 4
+    },
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+
+    // Markdown
+    "[markdown]": {
+        "editor.tabSize": 2 // for markdownlint
+    },
+
+    // Python
+    "jupyter.askForKernelRestart": false,
+
+    // Rust
+    "rust-analyzer.checkOnSave.command": "clippy",
+
+    // Unreal
+    "files.associations": {
+        "*.ush": "hlsl",
+        "*.usf": "hlsl"
+    },
+    "editor.fontSize": 12,
+    "[python]": {
+        "editor.formatOnType": true
+    }
+}
