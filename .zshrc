@@ -109,3 +109,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Alacritty
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
+source "$HOME/.cargo/env"
+fpath+=${ZDOTDIR:-~}/.zsh_functions
