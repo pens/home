@@ -1,13 +1,13 @@
 {
     // VSCode
-    "workbench.colorTheme": "Default High Contrast Light",
+    "workbench.colorTheme": "Default Light+",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "editor.minimap.enabled": false,
 
     // C++
     "[cpp]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 2
     },
     "C_Cpp.codeAnalysis.clangTidy.enabled": true,
 
@@ -30,5 +30,5 @@
     "editor.fontSize": 12,
     "[python]": {
         "editor.formatOnType": true
-    }
+    },
 }

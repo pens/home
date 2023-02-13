@@ -14,3 +14,7 @@
     signingkey = BF1CFE3682B85EE4
 [include]
     path = ~/.work.gitconfig
+[alias]
+	ci = commit
+	cia = commit --amend
+	cian = commit --amend --no-edit
