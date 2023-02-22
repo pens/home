@@ -1,0 +1,2 @@
+[escape]>[caps]
+[caps]>[escape]
