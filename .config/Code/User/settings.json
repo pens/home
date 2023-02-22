@@ -1,9 +1,11 @@
 {
     // VSCode
-    "workbench.colorTheme": "Default Light+",
+    "editor.fontSize": 12,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Default Light+",
 
     // C++
     "[cpp]": {
@@ -17,6 +19,9 @@
     },
 
     // Python
+    "[python]": {
+        "editor.formatOnType": true
+    },
     "jupyter.askForKernelRestart": false,
 
     // Rust
@@ -26,9 +31,5 @@
     "files.associations": {
         "*.ush": "hlsl",
         "*.usf": "hlsl"
-    },
-    "editor.fontSize": 12,
-    "[python]": {
-        "editor.formatOnType": true
     },
 }
