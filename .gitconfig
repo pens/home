@@ -12,11 +12,20 @@
     name = Seth Pendergrass
     email = 8273706+pens@users.noreply.github.com
     signingkey = BF1CFE3682B85EE4
-[include]
-    path = ~/.work.gitconfig
 [alias]
+    br = branch
 	ci = commit
 	cia = commit --amend
 	cian = commit --amend --no-edit
+    co = checkout
+    cp = cherry-pick
+    rb = rebase
+    rbi = rebase -i
+    rs = reset
+    rss = reset --soft
+    st = status
+    sw = switch
 [push]
 	autoSetupRemote = true
+[include]
+    path = ~/work/.gitconfig

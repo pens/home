@@ -115,7 +115,7 @@ fpath+=${ZDOTDIR:-~}/.zsh_functions
 
 source "$HOME/.cargo/env"
 fpath+=${ZDOTDIR:-~}/.zsh_functions
-
+autoload -U adp
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
