@@ -16,7 +16,7 @@
 [core]
     editor = vi
     excludesFile = ~/.config/git/ignore
-    pager = less -x4
+    pager = less -F -x4
 [init]
     defaultBranch = main
 [pull]
