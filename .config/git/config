@@ -1,8 +1,8 @@
 [alias]
     br = branch
-	ci = commit
-	cia = commit --amend
-	cian = commit --amend --no-edit
+    ci = commit
+    cia = commit --amend
+    cian = commit --amend --no-edit
     co = checkout
     cp = cherry-pick
     rb = rebase
@@ -15,14 +15,14 @@
     gpgsign = true
 [core]
     editor = vi
-    excludesFile = ~/.gitignore_global
+    excludesFile = ~/.config/git/ignore
     pager = less -x4
 [init]
     defaultBranch = main
 [pull]
     rebase = true
 [push]
-	autoSetupRemote = true
+    autoSetupRemote = true
 [user]
     name = Seth Pendergrass
     email = 8273706+pens@users.noreply.github.com
