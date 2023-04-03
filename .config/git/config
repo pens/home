@@ -14,7 +14,7 @@
 [commit]
     gpgsign = true
 [core]
-    editor = vi
+    editor = vim
     excludesFile = ~/.config/git/ignore
     pager = less -F -x4
 [init]
