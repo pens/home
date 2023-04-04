@@ -5,7 +5,9 @@
     cian = commit --amend --no-edit
     co = checkout
     cp = cherry-pick
+    cpc = cherry-pick --continue
     rb = rebase
+    rbc = rebase --continue
     rbi = rebase -i
     rs = reset
     rss = reset --soft
