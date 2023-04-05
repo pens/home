@@ -76,6 +76,7 @@ ZSH_TMUX_AUTOCONNECT=false
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
+    gpg-agent
 	ssh-agent
 	tmux
 )
@@ -133,3 +134,5 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 export PATH="/usr/local/sbin:$PATH"
+
+alias vi=nvim
