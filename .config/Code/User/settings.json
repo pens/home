@@ -1,5 +1,7 @@
 {
     // VSCode
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
     "editor.fontSize": 12,
     "editor.inlineSuggest.enabled": true,
     "editor.minimap.enabled": false,
