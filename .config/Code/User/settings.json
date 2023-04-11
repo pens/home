@@ -9,6 +9,18 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.colorTheme": "Default Light+",
 
+    // Vim
+    "vim.enableNeovim": true,
+    "vim.neovimUseConfigFile": true,
+
+    // Copilot
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+
     // C++
     "[cpp]": {
         "editor.tabSize": 2
@@ -33,11 +45,5 @@
     "files.associations": {
         "*.ush": "hlsl",
         "*.usf": "hlsl"
-    },
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": false,
-        "markdown": false
     },
 }
