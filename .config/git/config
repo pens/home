@@ -21,6 +21,8 @@
     pager = less -F -x4
 [init]
     defaultBranch = main
+[rebase]
+    autoStash = true
 [pull]
     rebase = true
 [push]
