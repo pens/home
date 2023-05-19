@@ -5,9 +5,13 @@
     "editor.fontSize": 12,
     "editor.inlineSuggest.enabled": true,
     "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "trailing",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "files.trimTrailingWhitespace": true,
+    //"window.autoDetectColorScheme": true,
     "workbench.colorTheme": "Default Light+",
+    "workbench.preferredLightColorTheme": "Default Light+",
 
     // Vim
     "vim.enableNeovim": true,
