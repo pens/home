@@ -81,7 +81,7 @@ plugins=(
 	tmux
 )
 
-zstyle :omz:plugins:ssh-agent identities key
+zstyle :omz:plugins:ssh-agent identities id_ed25519_sk
 
 source $ZSH/oh-my-zsh.sh
 
