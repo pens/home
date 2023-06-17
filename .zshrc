@@ -76,12 +76,8 @@ ZSH_TMUX_AUTOCONNECT=false
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
-    gpg-agent
-	ssh-agent
 	tmux
 )
-
-zstyle :omz:plugins:ssh-agent identities id_ed25519_sk
 
 source $ZSH/oh-my-zsh.sh
 
