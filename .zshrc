@@ -79,6 +79,14 @@ plugins=(
 	tmux
 )
 
+# Seth: Assuming macOS is my laptop
+# Need ssh-agent on client and gpg-agent on server
+if [[ "$(uname)" == "Darwin" ]]; then
+    plugins+=(ssh-agent)
+else
+    plugins+=(gpg-agent)
+fi
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
