@@ -31,5 +31,3 @@
     name = Seth Pendergrass
     email = 8273706+pens@users.noreply.github.com
     signingkey = BF1CFE3682B85EE4
-[includeIf "hasconfig:remote.*.url:git@github.com:AppliedIntuition/**"]
-    path = ~/.config/git/work.inc

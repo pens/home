@@ -1,2 +1,4 @@
 code
+firefox
 spotify
+steam

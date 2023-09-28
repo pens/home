@@ -9,20 +9,22 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
-    //"window.autoDetectColorScheme": true,
-    "workbench.colorTheme": "Default Light+",
-    "workbench.preferredLightColorTheme": "Default Light+",
+    "window.autoDetectColorScheme": true,
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "workbench.preferredLightColorTheme": "Default Light Modern",
 
-    // Vim
-    "vim.enableNeovim": true,
-    "vim.neovimUseConfigFile": true,
+    // Machine Specific
+    // TODO disable on Linux
+    "remote.SSH.path": "/usr/local/bin/ssh",
 
     // Copilot
     "github.copilot.enable": {
         "*": true,
-        "yaml": false,
         "plaintext": false,
-        "markdown": false
+        "markdown": false,
+        "scminput": false,
+        "yaml": false
     },
 
     // C++
