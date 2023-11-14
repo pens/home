@@ -1,10 +1,11 @@
 # Link program configurations to ~/home/ repo.
 
-$Config= "~\home\.config"
+$Config= "$PSScriptRoot\..\.config"
 
 $Links = (
     ("$Home\.config\git", "$Config\git"),                                       # Git
     ("$env:LocalAppData\nvim\init.vim", "$Config\nvim\init.vim"),               # Neovim
+    ("$Profile", "$Config\powershell\Microsoft.PowerShell_profile.ps1"),        # PowerShell
     ("$env:AppData\Code\User\settings.json", "$Config\Code\User\settings.json") # VS Code
 )
 
