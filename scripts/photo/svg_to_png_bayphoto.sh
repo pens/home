@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#
+# Converts SVG images into the correct PNG for sending to BayPhoto.
 set -ex
 
 height=$(inkscape -H "$1")

@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# 
+# Replaces all instances of a suffix from `old_suffixes` with `new_suffix`, excluding extensions.
+# Example: `file-old.png` -> `file-new.png`
 
 set -euo pipefail
 
