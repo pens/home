@@ -1,4 +1,0 @@
-code
-firefox
-spotify
-steam

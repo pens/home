@@ -1,3 +1,0 @@
-[escape]>[caps]
-[caps]>[escape]
-[rwin]>[lwin]
