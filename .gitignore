@@ -1,3 +1,10 @@
 *
+!/.config/alacritty/alacritty.yml
+!/.config/alacritty/themes/
+!/.config/Code/User/settings.json
+!/.config/git/config
+!/.config/git/ignore
+!/.config/nvim/init.vim
+!/.config/powershell/Microsoft.PowerShell_profile.ps1
 !/scripts/
 !/scripts/**

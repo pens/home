@@ -13,6 +13,7 @@
     defaultBranch = main
 [rebase]
     autoStash = true
+	updateRefs = true
 [pull]
     rebase = true
 [push]
