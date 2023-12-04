@@ -10,12 +10,13 @@
     "explorer.confirmDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
     "window.autoDetectColorScheme": true,
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Monokai",
     "workbench.preferredDarkColorTheme": "Monokai",
     "workbench.preferredLightColorTheme": "Default Light Modern",
 
-    // Machine Specific
-    // TODO disable on Linux
+    // HACK: Since macOS needs homebrew ssh, easiest way to handle this is to symlink this path to
+    // /usr/bin/ssh on Linux to match.
+    // TODO: Once -SK supported by mac SSH, remove.
     "remote.SSH.path": "/usr/local/bin/ssh",
 
     // Copilot
