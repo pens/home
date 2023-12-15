@@ -1,6 +1,8 @@
 [alias]
     br = branch
     ci = commit
+    cia = commit --amend
+    cin = commit --amend --no-edit
     st = status
     sw = switch
 [commit]
