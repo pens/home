@@ -1,10 +1,45 @@
 *
+
+#
+# /.config/
+#
+
+!/.config/
+/.config/*
+
+# Alacritty
+
+!/.config/alacritty/
+/.config/alacritty/*
+
 !/.config/alacritty/alacritty.yml
 !/.config/alacritty/themes/
+
+# VSCode
+
+!/.config/Code/
+/.config/Code/*
+
+!/.config/Code/User/
+/.config/Code/User/*
+
 !/.config/Code/User/settings.json
-!/.config/git/config
-!/.config/git/ignore
-!/.config/nvim/init.vim
+
+# Git
+
+!/.config/git/
+
+# Neovim
+
+!/.config/nvim/
+
+# PowerShell (Windows)
+
 !/.config/powershell/Microsoft.PowerShell_profile.ps1
+
+#
+# /scripts/
+#
+
 !/scripts/
 !/scripts/**

@@ -3,6 +3,9 @@
     ci = commit
     cia = commit --amend
     cin = commit --amend --no-edit
+    cp = cherry-pick
+    rb = rebase
+    ri = rebase -i
     st = status
     sw = switch
 [commit]
