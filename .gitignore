@@ -43,3 +43,6 @@
 
 !/scripts/
 !/scripts/**
+
+!/jigs/
+!/jigs/**
