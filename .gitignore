@@ -35,7 +35,7 @@
 
 # PowerShell (Windows)
 
-!/.config/powershell/Microsoft.PowerShell_profile.ps1
+!/.config/powershell/profile.ps1
 
 #
 # /scripts/
