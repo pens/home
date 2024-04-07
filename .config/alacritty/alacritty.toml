@@ -1,0 +1,8 @@
+import = ["/home/pens/.config/alacritty/themes/themes/night_owlish_light.yaml"]
+
+[window]
+decorations = "full"
+
+[window.dimensions]
+columns = 120
+lines = 40
