@@ -1,4 +1,4 @@
-import = ["/home/pens/.config/alacritty/themes/themes/night_owlish_light.yaml"]
+import = ["/home/pens/.config/alacritty/themes/themes/night_owlish_light.toml"]
 
 [window]
 decorations = "full"
