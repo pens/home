@@ -1,5 +1,5 @@
 [alias]
-    restore-unstage-discard = !git restore --staged \"$@\" && git restore \"$@\"
+    restore-staged-and-discard = !git restore --staged \"$@\" && git restore \"$@\"
 
     br = branch
     ci = commit
@@ -9,7 +9,7 @@
     rb = rebase
     rbi = rebase -i
     rs = restore
-    rsd = restore-unstage-discard
+    rsd = restore-staged-and-discard
     st = status
     sw = switch
 [commit]
