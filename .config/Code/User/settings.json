@@ -10,9 +10,14 @@
     "explorer.confirmDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
     "window.autoDetectColorScheme": true,
+    "window.menuBarVisibility": "compact",
     "workbench.colorTheme": "Default Light Modern",
+    "workbench.editor.editorActionsLocation": "titleBar",
     "workbench.preferredDarkColorTheme": "Monokai",
     "workbench.preferredLightColorTheme": "Default Light Modern",
+
+    // Debug
+    "debug.onTaskErrors": "abort",
 
     // Copilot
     "github.copilot.enable": {
@@ -48,4 +53,7 @@
         "*.ush": "hlsl",
         "*.usf": "hlsl"
     },
+
+    // Vim
+    "vim.enableNeovim": true
 }
