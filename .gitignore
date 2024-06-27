@@ -1,6 +1,13 @@
 *
 
 #
+# .*
+#
+
+!.tmux.conf
+!.zshrc
+
+#
 # /.config/
 #
 
@@ -38,11 +45,14 @@
 !/.config/powershell/profile.ps1
 
 #
-# /scripts/
+# /jigs/
 #
-
-!/scripts/
-!/scripts/**
 
 !/jigs/
 !/jigs/**
+
+#
+#
+#
+
+!LICENSE
