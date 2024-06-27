@@ -1,4 +1,4 @@
-import = ["/home/pens/.config/alacritty/themes/themes/night_owlish_light.toml"]
+import = ["/home/pens/.config/alacritty/themes/themes/monokai.toml"]
 
 [window]
 decorations = "full"
