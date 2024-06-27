@@ -27,6 +27,8 @@
     rebase = true
 [push]
     autoSetupRemote = true
+[submodule]
+    recurse = true
 [user]
     name = Seth Pendergrass
     email = 8273706+pens@users.noreply.github.com
