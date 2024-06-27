@@ -9,8 +9,11 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
+    "keyboard.dispatch": "keyCode", // For key remaps vs gnome-tweaks.
     "window.autoDetectColorScheme": true,
+    "window.customTitleBarVisibility": "auto",
     "window.menuBarVisibility": "compact",
+    "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Default Light Modern",
     "workbench.editor.editorActionsLocation": "titleBar",
     "workbench.preferredDarkColorTheme": "Monokai",
@@ -55,5 +58,5 @@
     },
 
     // Vim
-    "vim.enableNeovim": true
+    "vim.enableNeovim": true,
 }
