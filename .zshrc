@@ -137,6 +137,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-export PATH="/usr/local/sbin:$PATH"
+# Jekyll.
+export GEM_HOME="$HOME/gems"
+
+export PATH="/usr/local/sbin:$GEM_HOME:$PATH"
 
 alias vi=nvim
