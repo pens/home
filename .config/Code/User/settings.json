@@ -49,7 +49,9 @@
     "jupyter.askForKernelRestart": false,
 
     // Rust
-    "rust-analyzer.checkOnSave.command": "clippy",
+    "[rust]": {
+        "editor.tabSize": 2
+    },
 
     // Unreal
     "files.associations": {
@@ -58,5 +60,7 @@
     },
 
     // Vim
-    "vim.enableNeovim": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
 }
