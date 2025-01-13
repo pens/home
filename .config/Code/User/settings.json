@@ -52,6 +52,8 @@
     "[rust]": {
         "editor.tabSize": 2
     },
+    // HACK: For whatever reasons, the LLDB plugin doesn't pick up my .zshenv.
+    "lldb.cargo": "/home/pens/.cargo/bin/cargo",
 
     // Unreal
     "files.associations": {

@@ -115,31 +115,19 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Alacritty
-fpath+=${ZDOTDIR:-~}/.zsh_functions
-
-source "$HOME/.cargo/env"
-fpath+=${ZDOTDIR:-~}/.zsh_functions
-autoload -U adp
+alias vi=nvim
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/seth/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/pens/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/seth/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/seth/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/pens/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/pens/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/seth/anaconda3/bin:$PATH"
+        export PATH="/home/pens/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-# Jekyll.
-export GEM_HOME="$HOME/gems"
-
-export PATH="/usr/local/sbin:$GEM_HOME:$PATH"
-
-alias vi=nvim
