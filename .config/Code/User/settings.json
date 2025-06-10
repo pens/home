@@ -16,8 +16,8 @@
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Default Light Modern",
     "workbench.editor.editorActionsLocation": "titleBar",
-    "workbench.preferredDarkColorTheme": "Monokai",
-    "workbench.preferredLightColorTheme": "Default Light Modern",
+    "workbench.preferredDarkColorTheme": "Night Owl",
+    "workbench.preferredLightColorTheme": "Night Owl Light",
 
     // Debug
     "debug.onTaskErrors": "abort",
@@ -62,7 +62,7 @@
     },
 
     // Vim
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
+    "vim.handleKeys": {
+        "<C-p>": false
     },
 }

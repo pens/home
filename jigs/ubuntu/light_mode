@@ -1,2 +1,3 @@
 #!/usr/bin/env sh
 gsettings set org.gnome.desktop.interface color-scheme 'default'
+ln -fs ~/.config/alacritty/themes/themes/night_owlish_light.toml ~/.config/alacritty/theme.toml

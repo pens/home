@@ -1,2 +1,3 @@
 #!/usr/bin/env sh
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+ln -fs ~/.config/alacritty/themes/themes/night_owl.toml ~/.config/alacritty/theme.toml
