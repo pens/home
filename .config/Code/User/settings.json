@@ -10,14 +10,11 @@
     "explorer.confirmDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
     "keyboard.dispatch": "keyCode", // For key remaps vs gnome-tweaks.
-    "window.autoDetectColorScheme": true,
-    "window.customTitleBarVisibility": "auto",
+    "window.customTitleBarVisibility": "windowed",
     "window.menuBarVisibility": "compact",
     "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "Default Light Modern",
     "workbench.editor.editorActionsLocation": "titleBar",
-    "workbench.preferredDarkColorTheme": "Night Owl",
-    "workbench.preferredLightColorTheme": "Night Owl Light",
+    "workbench.colorTheme": "Night Owl",
 
     // Debug
     "debug.onTaskErrors": "abort",
@@ -62,6 +59,9 @@
     },
 
     // Vim
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
     "vim.handleKeys": {
         "<C-p>": false
     },
