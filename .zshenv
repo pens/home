@@ -15,3 +15,6 @@ path+=($HOME/repos/exiftool)
 # Ruby (Jekyll).
 export GEM_HOME="$HOME/gems"
 path+=($GEM_HOME)
+
+# Vulkan SDK.
+source "$HOME/vulkan_sdk/setup-env.sh"

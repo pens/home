@@ -1,6 +1,7 @@
 {
     // VSCode
     "editor.autoClosingBrackets": "never",
+    "editor.autoClosingComments": "never",
     "editor.autoClosingQuotes": "never",
     "editor.fontSize": 12,
     "editor.inlineSuggest.enabled": true,
@@ -11,10 +12,15 @@
     "files.trimTrailingWhitespace": true,
     "keyboard.dispatch": "keyCode", // For key remaps vs gnome-tweaks.
     "window.customTitleBarVisibility": "windowed",
-    "window.menuBarVisibility": "compact",
+    "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "custom",
     "workbench.editor.editorActionsLocation": "titleBar",
-    "workbench.colorTheme": "Night Owl",
+
+    // Colors
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Night Owl Light",
+    "workbench.preferredDarkColorTheme": "Night Owl",
+    // "workbench.colorTheme": "Night Owl",
 
     // Debug
     "debug.onTaskErrors": "abort",
@@ -49,8 +55,6 @@
     "[rust]": {
         "editor.tabSize": 2
     },
-    // HACK: For whatever reasons, the LLDB plugin doesn't pick up my .zshenv.
-    "lldb.cargo": "/home/pens/.cargo/bin/cargo",
 
     // Unreal
     "files.associations": {
