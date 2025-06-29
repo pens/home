@@ -1,20 +1,18 @@
-# Custom utilities.
-path+=(~/jigs/ubuntu)
+# jigs
+path+=("$HOME/jigs/ubuntu")
 
-# Cargo.
+# tools
+path+=("$HOME/tools/exiftool/")
+
+# sdks
+export VULKAN_SDK="$HOME/sdks/vulkan_sdk"
+source "$VULKAN_SDK/setup-env.sh"
+
+# other packages
+
+# cargo
 source "$HOME/.cargo/env"
 
-# CUDA.
+# cuda
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda/lib64
 path+=(/usr/local/cuda/bin)
-
-# ExifTool
-# TODO: Eventually, make local bin directory and symlink into different repos instead.
-path+=($HOME/repos/exiftool)
-
-# Ruby (Jekyll).
-export GEM_HOME="$HOME/gems"
-path+=($GEM_HOME)
-
-# Vulkan SDK.
-source "$HOME/vulkan_sdk/setup-env.sh"

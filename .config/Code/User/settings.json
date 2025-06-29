@@ -20,7 +20,6 @@
     "window.autoDetectColorScheme": true,
     "workbench.preferredLightColorTheme": "Night Owl Light",
     "workbench.preferredDarkColorTheme": "Night Owl",
-    // "workbench.colorTheme": "Night Owl",
 
     // Debug
     "debug.onTaskErrors": "abort",
@@ -66,7 +65,10 @@
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
+    "vim.enableNeovim": true,
     "vim.handleKeys": {
-        "<C-p>": false
+        "<C-b>": false, // up 1 line -> hide sidebar
+        "<C-p>": false // up 1 page -> open file
     },
+    "github.copilot.nextEditSuggestions.enabled": true,
 }
