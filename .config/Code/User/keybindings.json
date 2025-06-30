@@ -1,0 +1,9 @@
+// Place your key bindings in this file to override the defaults
+[
+    // seems to break find and replace in visual line mode
+    {
+        "key": "shift+;",
+        "command": "vim.showQuickpickCmdLine",
+        "when": "inZenMode && vim.mode != 'Insert'"
+    },
+]
