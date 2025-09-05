@@ -1,5 +1,5 @@
 {
-    // VSCode
+    // general
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingComments": "never",
     "editor.autoClosingQuotes": "never",
@@ -12,19 +12,19 @@
     "files.trimTrailingWhitespace": true,
     "keyboard.dispatch": "keyCode", // For key remaps vs gnome-tweaks.
     "window.customTitleBarVisibility": "windowed",
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "compact",
     "window.titleBarStyle": "custom",
     "workbench.editor.editorActionsLocation": "titleBar",
 
-    // Colors
+    // colors
     "window.autoDetectColorScheme": true,
     "workbench.preferredLightColorTheme": "Night Owl Light",
     "workbench.preferredDarkColorTheme": "Night Owl",
 
-    // Debug
+    // debug
     "debug.onTaskErrors": "abort",
 
-    // Copilot
+    // copilot
     "github.copilot.enable": {
         "*": true,
         "plaintext": false,
@@ -33,35 +33,40 @@
         "yaml": false
     },
 
-    // C++
+    // c++
     "[cpp]": {
         "editor.tabSize": 2
     },
     "C_Cpp.codeAnalysis.clangTidy.enabled": true,
 
-    // Markdown
+    // markdown
     "[markdown]": {
         "editor.tabSize": 2 // for markdownlint
     },
 
-    // Python
+    // python
     "[python]": {
         "editor.formatOnType": true
     },
     "jupyter.askForKernelRestart": false,
 
-    // Rust
+    // rust
     "[rust]": {
         "editor.tabSize": 2
     },
 
-    // Unreal
+    // slang
+    "[slang]": {
+        "editor.tabSize": 2,
+    },
+
+    // unreal
     "files.associations": {
         "*.ush": "hlsl",
         "*.usf": "hlsl"
     },
 
-    // Vim
+    // vi
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
