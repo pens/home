@@ -27,6 +27,7 @@
     rebase = true
 [push]
     autoSetupRemote = true
+    followTags = true
 [submodule]
     recurse = true
 [user]
