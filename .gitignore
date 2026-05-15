@@ -39,6 +39,7 @@
 # Neovim
 
 !/.config/nvim/
+!/.config/nvim/vscode-monokaicharcoal/
 
 # PowerShell (Windows)
 

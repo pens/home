@@ -1,3 +1,6 @@
 [submodule ".config/alacritty/themes"]
 	path = .config/alacritty/themes
 	url = git@github.com:alacritty/alacritty-theme
+[submodule ".config/nvim/vscode-monokaicharcoal"]
+	path = .config/nvim/vscode-monokaicharcoal
+	url = git@github.com:74th/vscode-monokaicharcoal

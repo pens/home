@@ -11,15 +11,9 @@
     "explorer.confirmDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
     "keyboard.dispatch": "keyCode", // For key remaps vs gnome-tweaks.
-    "window.customTitleBarVisibility": "windowed",
-    "window.menuBarVisibility": "compact",
-    "window.titleBarStyle": "custom",
-    "workbench.editor.editorActionsLocation": "titleBar",
 
     // colors
-    "window.autoDetectColorScheme": true,
-    "workbench.preferredLightColorTheme": "Night Owl Light",
-    "workbench.preferredDarkColorTheme": "Night Owl",
+    "workbench.colorTheme": "monokai-charcoal (green)",
 
     // debug
     "debug.onTaskErrors": "abort",
@@ -54,6 +48,7 @@
     "[rust]": {
         "editor.tabSize": 2
     },
+    "rust-analyzer.checkOnSave": false,
 
     // slang
     "[slang]": {
@@ -75,5 +70,4 @@
         "<C-b>": false, // up 1 line -> hide sidebar
         "<C-p>": false // up 1 page -> open file
     },
-    "github.copilot.nextEditSuggestions.enabled": true,
 }
